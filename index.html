@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="cs">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AKH Praha</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" />
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        line-height: 1.6;
+        color: #333;
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 20px;
+        text-align: center;
+      }
+      .logo {
+        max-width: 400px;
+        height: auto;
+        margin-bottom: 20px;
+      }
+      h1,
+      h2 {
+        color: #1a5f7a;
+      }
+      .section {
+        margin: 40px 0;
+        padding: 20px;
+        background-color: #f8f8f8;
+        border-radius: 10px;
+      }
+      .calendar,
+      .table {
+        margin: 20px 0;
+      }
+      .finance-img {
+        max-width: 100%;
+        height: auto;
+      }
+      ul {
+        list-style-type: none;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+      }
+      li {
+        margin: 0 15px 10px;
+      }
+      a {
+        color: #1a5f7a;
+        text-decoration: none;
+      }
+      a:hover {
+        text-decoration: underline;
+      }
+      .contact {
+        margin-top: 20px;
+        font-weight: bold;
+      }
+      .forms {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        margin-top: 20px;
+      }
+      .forms iframe {
+        margin: 10px;
+        max-width: 100%;
+      }
+      .social-icon {
+        font-size: 24px;
+        margin: 0 5px;
+      }
+      footer {
+        margin-top: 40px;
+        padding: 20px;
+        background-color: #1a5f7a;
+        color: white;
+        border-radius: 10px;
+      }
+      footer a {
+        color: white;
+      }
+
+      /* New rule for mobile devices */
+      @media (max-width: 768px) {
+        a {
+          text-decoration: underline;
+        }
+      }
+    </style>
+  </head>
+
+  <body>
+    <img src="images/logo_Praha_barevne.jpg" alt="AKH Praha Logo" class="logo" />
+
+    <h1 style="display: none">AKH Praha</h1>
+
+    <div class="section">
+      <h2>Kalendář a Rozpis služeb</h2>
+      <div class="calendar">
+        <iframe
+          src="https://calendar.google.com/calendar/embed?height=600&wkst=2&ctz=Europe%2FPrague&bgcolor=%23039BE5&mode=AGENDA&showTz=0&showPrint=0&showNav=0&showDate=0&showTabs=0&showCalendars=0&src=Y19kODFmN2ZlNWI0MTFmNDQ5YjI1YzllMDUzNTA2NjZkODI2Njc0MWJiM2U3ZDNjNDRkMDgyNDMyNzBlNmMwYWQ1QGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20&src=Y182NGMyZmEwNDkyM2U4MzNjNjNlMTVlOTI2ZDkyYWU0Y2Y0ZGI2YTI5YzM2YjQ4MjQ0NjMwOGI1ZmQ2NWFiNzI4QGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20&color=%23D81B60&color=%23F09300"
+          style="border-width: 0"
+          width="100%"
+          height="400"
+          frameborder="0"
+          scrolling="no"
+        ></iframe>
+      </div>
+      <div class="table">
+        <iframe
+          src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQOBrC1KoIjeth6ci6W3I74XgdfW9OEUmIfvlZxSRN-ZbSuxMtMo6dAGriujxwuMGgO_Nb1c71Biu8n/pubhtml"
+          width="100%"
+          height="400"
+        ></iframe>
+        <p>
+          Chceš-li se zapsat do některé buňky, jdi na
+          <a href="https://docs.google.com/spreadsheets/d/1L7wE6UGGDvx54JGNk_FZ_0psWJEx42Zj8SLJsOuFEGA/" target="_blank"
+            >bit.ly/AKHPraha</a
+          >
+        </p>
+      </div>
+    </div>
+
+    <div class="section">
+      <h2>Finance</h2>
+      <p>
+        <strong>Doporučená výše příspěvku:</strong> 400-600 Kč/pololetí.<br />
+        Vybrané peníze používáme na příspěvek dominikánům za poskytnuté prostory, občerstvení na našich čtvrtečních
+        setkáních a propagační materiály.<br />
+        <strong>Číslo účtu AKH Praha:</strong> 2402808175/2010
+      </p>
+      <img src="images/finance.jpg" alt="Finance QR kód" class="finance-img" />
+      <p>
+        Jestli potřebuješ potvrzení o daru pro daňové účely, napiš si o něj na
+        <a href="mailto:vojtech.kaska@akhcr.cz">vojtech.kaska@akhcr.cz</a>.
+      </p>
+    </div>
+
+    <div class="section">
+      <h2>Sociální sítě</h2>
+      <ul>
+        <li>
+          <a href="https://www.facebook.com/AKHPraha" target="_blank"
+            ><i class="fab fa-facebook social-icon"></i> AKH Praha</a
+          >
+        </li>
+        <li>
+          <a href="https://www.instagram.com/akh_praha/" target="_blank"
+            ><i class="fab fa-instagram social-icon"></i> AKH Praha</a
+          >
+        </li>
+        <li>
+          <a href="https://www.facebook.com/akhcr.cz" target="_blank"
+            ><i class="fab fa-facebook social-icon"></i> AKH ČR</a
+          >
+        </li>
+        <li>
+          <a href="https://www.instagram.com/akh_cr/" target="_blank"
+            ><i class="fab fa-instagram social-icon"></i> AKH ČR</a
+          >
+        </li>
+      </ul>
+    </div>
+
+    <div class="section">
+      <h2>Formuláře</h2>
+      <div class="forms">
+        <iframe
+          src="https://docs.google.com/forms/d/e/1FAIpQLSc5sOto0oYc5e7n1q-lFo-42g9RiA1s1kdMzJDlfjcePETLhw/viewform?embedded=true"
+          width="640"
+          height="500"
+          frameborder="0"
+          marginheight="0"
+          marginwidth="0"
+          >Načítání…</iframe
+        >
+
+        <iframe
+          src="https://docs.google.com/forms/d/e/1FAIpQLSeLWvMgSwa2JTb8WHMtDydSpwtRUlF-3OfviUCuJ1wB6Q2q2w/viewform?embedded=true"
+          width="640"
+          height="500"
+          frameborder="0"
+          marginheight="0"
+          marginwidth="0"
+          >Načítání…</iframe
+        >
+      </div>
+    </div>
+
+    <footer>
+      <p class="contact"><strong>Kontakt:</strong> <a href="mailto:praha@akhcr.cz">praha@akhcr.cz</a></p>
+      <p><a href="https://akhcr.cz/" target="_blank">Web AKH ČR</a></p>
+    </footer>
+  </body>
+</html>
